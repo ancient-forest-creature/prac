@@ -1,0 +1,21 @@
+{
+  "name": "prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BankAcct.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ancient-forest-creature/prac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ancient-forest-creature/prac/issues"
+  },
+  "homepage": "https://github.com/ancient-forest-creature/prac#readme",
+  "type":"module" 
+}

@@ -1,4 +1,4 @@
-class BankAccount {
+export class BankAccount {
     constructor(intRate = .012, balance = 0) {
         this.intRate = intRate;
         this.balance = balance;
@@ -24,12 +24,18 @@ class BankAccount {
         this.balance = this.balance + (this.balance * this.intRate);
         return this;
     }
+
+    
 }
 
-const one = new BankAccount(.03, 450);
+// module.export = {BankAccount};
 
-one.deposit(50).deposit(75).deposit(367).withdraw(698).yieldInterest().displayAccountInfo();
+// export class BankAccount;
 
-const two = new BankAccount();
+// const one = new BankAccount(.03, 450);
 
-two.deposit(699).deposit(369).withdraw(23).withdraw(42).withdraw(195).withdraw(777).yieldInterest().displayAccountInfo();
+// one.deposit(50).deposit(75).deposit(367).withdraw(698).yieldInterest().displayAccountInfo();
+
+// const two = new BankAccount();
+
+// two.deposit(699).deposit(369).withdraw(23).withdraw(42).withdraw(195).withdraw(777).yieldInterest().displayAccountInfo();
